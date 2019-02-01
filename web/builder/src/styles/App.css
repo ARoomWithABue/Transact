@@ -1,0 +1,143 @@
+.App {
+  height: 100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 20vmin;
+  margin-bottom: 50px;
+}
+
+/*.App-header {*/
+  /*!*background-color: #282c34;*!*/
+  /*min-height: 100vh;*/
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  /*font-size: calc(10px + 2vmin);*/
+  /*color: white;*/
+/*}*/
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+html, body {
+  height: 100%;
+  color: black;
+  overflow: hidden;
+}
+
+h1, h2, h3 {
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 22px;
+}
+
+.top10 {
+  margin-top: 10px;
+}
+
+.top20 {
+  margin-top: 20px;
+}
+
+.top30 {
+  margin-top: 30px;
+}
+
+.top40 {
+  margin-top: 40px;
+}
+
+.primaryColor {
+  background-color: #1E3231;
+}
+
+.secondaryColor {
+  background-color: #485665;
+}
+
+.tertiaryColor {
+  background-color: #8E7C93;
+}
+
+.bgColor {
+  background-color: #F6C0D0;
+}
+
+.App {
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.float {
+  float: left;
+}
+
+.shadow {
+  box-shadow: 0.2em 0.2em 0.2em 0.2em rgba(0,0,0,0.2);
+}
+
+.col-center {
+  margin: 0 auto
+}
+
+#root {
+  height: 100%;
+}
+
+#ActionSelector {
+  height: 100%;
+  flex: 1;
+}
+
+#ActionBuilder {
+  flex: 5;
+}
+
+#TransactionViewer {
+  height: 100%;
+  flex: 2;
+}
+
+
+
+
